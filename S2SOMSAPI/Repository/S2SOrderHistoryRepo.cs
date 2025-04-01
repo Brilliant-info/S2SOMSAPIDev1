@@ -1,6 +1,5 @@
 ﻿using S2SOMSAPI.Model;
 using System.Data;
-using System.Data.Common;
 using S2SOMSAPI.Repository.Interface;
 using Microsoft.Data.SqlClient;
 

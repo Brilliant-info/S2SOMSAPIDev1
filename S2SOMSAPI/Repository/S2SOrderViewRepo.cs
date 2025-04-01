@@ -30,7 +30,7 @@ namespace S2SOMSAPI.Repository
                 //if (ds != null & ds?.Tables[0].Rows.Count > 0)
                 if (ds != null && ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
-                    string WincashOrderNumber = ds.Tables[0].Rows[0]["WincashOrderNumber"]?.ToString() ?? "";
+                    string WincashOrderNumber = ds.Tables[0].Rows[0]["WincashOrderNumber"]?.ToString() ??;
                     string S2SOrderNo = ds.Tables[0].Rows[0]["S2SOrderNo"]?.ToString() ?? "";
                     string Status = ds.Tables[0].Rows[0]["Status"]?.ToString() ?? "";
                     string Sourcestore = ds.Tables[0].Rows[0]["Sourcestore"]?.ToString() ?? "";
